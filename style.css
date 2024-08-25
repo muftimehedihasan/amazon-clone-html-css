@@ -1,0 +1,159 @@
+*{
+    margin: 0;
+    font-family: Arial;
+    border: border-box;
+}
+
+/* navbar css */
+
+.navbar{
+    height: 60px;
+    background-color: #131921;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+
+.nav-logo{
+    height: 50px;
+    width: 113px;
+}
+
+.logo{
+    height: 50px;
+    width: 100%;
+    background-size: cover;
+    background-image: url("amazon_logo.png");
+}
+
+.border{
+    border: 1.5px solid transparent;
+}
+
+.border:hover{
+    border: 1.5px solid white;
+}
+
+
+
+/** box2 **/
+.address-first{
+    color: #ccc;
+    font-size: 0.85rem;
+    margin-left: 15px;
+
+}
+
+.address-second{
+    margin-left: 3px;
+
+}
+
+.address-icon{
+    display: flex;
+    align-items: center;
+}
+
+
+
+/** box3 **/
+.nav-search{
+    margin-left: 15px;
+    justify-content: space-evenly;
+    display: flex;
+    background-color: pink;
+    width: 620px;
+    height: 40px;
+    border-radius: 4px;
+}
+
+.search-select{
+    background-color: #f3f3f3;
+    width: 50px;
+    text-align: center;
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+    border: none;
+}
+
+.search-input{
+    width: 100%;
+    font-size: 1rem;
+    border: none;
+}
+
+.search-icon{
+    width: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5rem;
+    background-color: rgb(228, 171, 0);
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+    color: #000;
+}
+
+.nav-search:hover{
+    border: 2px solid orange;
+}
+
+/** box4 **/
+
+span{
+    font-size: 0.7rem;
+}
+
+.nav-second{
+    font-size: 0.85rem;
+    font-weight: 700;
+}
+
+/** box5 **/
+
+.nav-cart i{
+
+    font-size: 30px;
+   
+}
+
+.nav-cart{
+    font-size: 0.85rem;
+    font-weight: 700;
+}
+
+
+
+/* css fo pannel */
+
+.pannel{
+   height: 40px;
+   background-color: rgb(43, 44, 47);
+   display: flex;
+   color: #ffffff;
+   align-items: center;
+   justify-content: space-evenly;
+}
+.pannel p{
+    display: inline;
+    margin-left: 15px;
+}
+
+.pannel-options{
+    width: 70%;
+}
+
+.pannel-deals{
+    font-size: 0.9rem;
+    font-weight: 700;
+}
+
+
+
+
+
+
+
+/* end navbar css */
